@@ -270,5 +270,28 @@ div svg:hover #twitter{
         left: 272px;
         top: 180px;
     }
+
+    /* FOOTER TABLET */
+
+    footer{
+        margin-top: 182px;
+    }
+
+    footer img{
+        display: block;
+        margin-left: 4.29%;
+    }
+
+    footer p{
+        display: inline-block;
+        width: 366px;
+        height: 79px;
+        margin-left: 4.29%;
+    }
+
+    footer div{
+        display: inline-flex;
+        margin-left: 18.22%;
+    }
     
 }
