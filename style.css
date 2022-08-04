@@ -78,7 +78,7 @@ section{
     background: #FA7453;
     border-radius: 12px;
     position: absolute;
-    top: 380px;
+    top: 425px;
 }
 
 .info h2{
@@ -173,7 +173,7 @@ section{
 /* FOOTER MOBILE */
 
 footer{
-    margin-top: 390px;
+    margin-top: 450px;
     margin-left: 6.43%;
 }
 
