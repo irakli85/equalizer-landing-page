@@ -379,6 +379,7 @@ div svg:hover #twitter{
 
     footer{
         display: flex;
+        justify-content: space-between;
         margin-left: 11.45%;
         margin-right: 11.45%;
         margin-top: 202px;
