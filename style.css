@@ -17,10 +17,7 @@ body{
 
 /* MAIN MOBILE */
 
-main{
-       
-        
-}
+
 
 main img{
     width: 146.09px;
@@ -292,6 +289,118 @@ div svg:hover #twitter{
     footer div{
         display: inline-flex;
         margin-left: 18.22%;
+    }
+    
+}
+
+/* DESKTOP */
+@media  screen and (min-width: 1440px) {
+
+    main{
+        height: 740px;
+        background: url("./assets/bg-main-desktop.png"), url("./assets/bg-pattern-1.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: left -371px top -329px, left 1124px top -37px;
+    }
+
+    main img{
+        margin-left: 11.45%;
+        margin-top: 62px;
+    }
+
+    main h1{
+        width: 850px;
+        margin-left: 11.45%;
+        margin-top: 127px;
+
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+    }
+
+    main p{
+        width: 825px;
+        margin-left: 11.45%;
+        margin-top: 40px;
+
+        font-size: 20px;
+        line-height: 34px;
+    }
+
+    /* SECTION DESCTOP */
+
+    section{
+        margin-top: 120px;
+        margin-left: 11.45%;
+        margin-right: 11.45%;
+        background-position: left 333px top -30px;
+        height: 600px;
+    }
+
+    .phone-image{
+        width: 312px;
+        height: 642px;
+        left: 100px;
+    }
+
+    .info{
+        width: 446px;
+        height: 625px;
+        left: 570px;
+        top: 100px;
+    }
+
+    .info h2{
+        font-size: 40px;
+        margin-left: 54px;
+        margin-top: 58px;
+    }
+
+    .info p{
+        font-size: 20px;
+        line-height: 34px;
+        margin-left: 54px;
+        margin-right: 59px;
+        margin-top: 22px;
+    }
+
+    .info-price{
+        margin-left: 54px;
+        margin-top: 39px;
+    }
+
+    .info a{
+        margin-left: 54px;
+        Width: 333px;
+        Height: 61px;        
+    }
+
+    /* FOOTER DESKTOP */
+
+    footer{
+        display: flex;
+        margin-left: 11.45%;
+        margin-right: 11.45%;
+        margin-top: 202px;
+    }
+
+    footer img{
+        display: inline-block;
+        margin-top: 0;
+        margin-left: 0;
+        
+    }
+
+    footer p{
+        margin-left: 137.76px;
+        margin-top: 0;
+        margin-bottom: 91px;
+        
+    }
+
+    footer div{
+        margin-top: 0;
+        margin-bottom: 0;
     }
     
 }
