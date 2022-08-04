@@ -6,6 +6,7 @@
     border: 0;
     font-family: 'IBM Plex Sans';
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
@@ -52,6 +53,9 @@ section{
     border-radius: 12px;
     height: 600px;
     margin-top: 166px;
+    background-image: url("./assets/bg-pattern-2.svg");
+    background-repeat: no-repeat;
+    background-position: left 48px top 0;
 }
 
 
@@ -62,4 +66,101 @@ section{
     height: 430px;
     top: -110px;
     left: 21.51%;    
+}
+
+.info{
+    height: 546px;
+    background: #FA7453;
+    border-radius: 12px;
+    position: absolute;
+    top: 380px;
+}
+
+.info h2{
+    font-weight: 700;
+    font-size: 32px;
+    color: #FCFAF9;
+    margin-left: 9.6%;
+    margin-top: 48px;
+}
+
+.info p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #FCFAF9;
+    margin-left: 9.6%;
+    margin-right: 9.6%;
+    margin-top: 12px;
+}
+
+.info-price{
+    display: flex;    
+    align-items: center;
+    margin-left: 9.6%;
+    margin-top: 36px;    
+}
+
+.price{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 52px;
+    color: #FCFAF9;    
+}
+
+.month{
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: -0.2px;
+    color: #FCFAF9;
+    margin-left: 16px;
+}
+.apple-btn{
+    display: flex;
+    width: 296px;
+    height: 61px;
+    background: #191826;
+    border-radius: 12px;
+    margin-left: 9.6%;
+    margin-top: 32px;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    color: #FCFAF9;
+}
+
+.apple-btn img{
+    margin-right: 8px;
+}
+
+.apple-btn:hover{
+    background: #66E2DC;
+}
+
+.android-btn{
+    display: flex;
+    width: 296px;
+    height: 61px;
+    background: #FCFAF9;
+    border-radius: 12px;
+    margin-left: 9.6%;
+    margin-top: 16px;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: -0.18px;
+    color: #191826;
+}
+
+.android-btn img{
+    margin-right: 8px;
+}
+
+.android-btn:hover{
+    background: #FFB964;
 }
