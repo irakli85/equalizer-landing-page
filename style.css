@@ -17,15 +17,17 @@ body{
 
 /* MAIN MOBILE */
 
-main{    
-    padding-left: 6.43%;
-    padding-right: 6.43%;    
+main{
+       
+        
 }
 
 main img{
     width: 146.09px;
     height: 32px;
-    margin-top: 40px;    
+    margin-top: 40px;
+    margin-left: 6.43%;
+    margin-right: 6.43%;    
 }
 
 main h1{
@@ -35,6 +37,8 @@ main h1{
     letter-spacing: -0.454545px;
     color: #191826;
     margin-top: 64px;
+    margin-left: 6.43%;
+    margin-right: 6.43%;
 }
 
 main p{
@@ -43,6 +47,8 @@ main p{
     line-height: 26px;
     color: #191826;
     margin-top: 20px;
+    margin-left: 6.43%;
+    margin-right: 6.43%;
 }
 
 main{
@@ -208,4 +214,61 @@ div svg:hover #instagram,
 div svg:hover #twitter{
     fill: #FA7453;
     cursor: pointer;
+}
+
+
+/* TABLET  */
+
+@media screen and (min-width: 768px) {
+
+    main{
+        height: 665px;
+        background: url("./assets/bg-main-tablet.png"), url("./assets/bg-pattern-1.svg");
+        background-repeat: no-repeat, no-repeat;
+        background-position: left -371px top -329px, left 496px top -105px;      
+    }
+
+    main img{
+        margin-top: 62px;
+        margin-left: 5.07%;
+    }
+
+    main h1{
+        margin-left: 5.07%;
+        width: 520px;
+
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727273px;
+    }
+
+    main p{
+        margin-left: 5.07%;
+        width: 514px;
+
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    /* SECTION TABLET  */
+
+    section{
+        background-position: left 252px top -30px;
+        margin-left: 4.29%;
+        margin-right: 4.29%;
+    }
+
+    .phone-image{
+        width: 270.21px;
+        height: 556px;
+        left: 12.63%;
+    }
+
+    .info{
+        width: 399px;
+        height: 546px;
+        left: 272px;
+        top: 180px;
+    }
+    
 }
