@@ -14,6 +14,8 @@ body{
     height: auto;
 }
 
+/* MAIN MOBILE */
+
 main{    
     margin-left: 6.43%;    
 }
@@ -46,6 +48,9 @@ main{
     background-repeat: no-repeat;
     background-position: left 5px top -210px;
 }
+
+
+/* SECTION MOBILE */
 
 section{
     position: relative;
@@ -163,4 +168,41 @@ section{
 
 .android-btn:hover{
     background: #FFB964;
+}
+
+/* FOOTER MOBILE */
+
+footer{
+    margin-top: 390px;
+    margin-left: 6.43%;
+}
+
+footer img{
+    width: 146.09px;
+    height: 32px;
+}
+
+footer p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #191826;
+    margin-top: 32px;
+}
+
+footer div{
+    margin-top: 64px;
+    margin-bottom: 80px;
+}
+
+div svg{
+    margin-right: 20px;
+}
+
+
+div svg:hover #facebook,
+div svg:hover #instagram,
+div svg:hover #twitter{
+    fill: #FA7453;
+    cursor: pointer;
 }
