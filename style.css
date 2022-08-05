@@ -300,7 +300,7 @@ div svg:hover #twitter{
         height: 740px;
         background: url("./assets/bg-main-desktop.png"), url("./assets/bg-pattern-1.svg");
         background-repeat: no-repeat, no-repeat;
-        background-position: left -371px top -329px, left 1124px top -37px;
+        background-position: left -371px top -329px, left 78vw top -3vh;;
     }
 
     main img{
